@@ -1,0 +1,36 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:#333;
+    --primary-color: #4c9b1a;
+    /* --primary-color: #42b6df; */
+    --border-color: #DBDBDB;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    /* font-size mac dinh cua trinh duyet: 16px */
+    font-size: 62.5%; /* font-size = 10px */
+    line-height: 1.6rem; /* Do cao chu = 16px */
+    font-family: 'Roboto', sans-serif; /* sans-serif la font chu thay the khi font Roboto chua load */
+    box-sizing: border-box;
+}
+
+/* Chuan bi cho Reponsive */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}

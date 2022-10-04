@@ -1,0 +1,170 @@
+.header {
+    height: 232px;
+}
+
+
+/* Header info */
+
+.header__navbar-info {
+    height: 44px;
+    background-color: var(--primary-color);
+}
+
+.header__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /*
+    display: flex;
+    justify-content: space-evenly;
+    */
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__list-item {
+    width: 100%;
+}
+
+.header__list-icon {
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin: 0px 5px;
+    padding: 0;
+}
+
+.header__list-title {
+    color: #FEFEFE;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0;
+}
+
+.header__list-title:hover {
+    font-weight: 700;
+    color: #fcfcfc;
+    cursor: text;
+}
+
+
+/* header select */
+
+.header__select {
+    height: 130px;
+    background-color: var(--white-color);
+    padding-top: 14px;
+    width: 100%;
+}
+
+.header__home {
+    float: left;
+    display: flex;
+    width: 64%;
+}
+
+.header__logo {
+    width: 25%;
+    text-align: center;
+}
+
+.header__home-link {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header__home-link img {
+    height: 94px;
+    width: 105px;
+}
+
+.header__hospital-title {
+    width: 75%;
+    color: var(--primary-color);
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: left;
+    align-self: flex-end;
+}
+
+.header__button {
+    /* float: left; */
+    display: flex;
+    width: 36%;
+    flex-direction: column;
+}
+
+.header__button-item {
+    margin: 9px auto;
+}
+
+.header__button-color {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    min-width: 130px;
+    min-height: 32px;
+}
+
+.header__button-link {
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.form_dangky {
+    width: 100%;
+    background-color: #fff;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    /* border-radius: 12px; */
+}
+
+.form_tieude {
+    background-color: #4c9b1a;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.form_tieude p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bt_thanhngang {
+    height: 100;
+    border-bottom: 2px solid;
+    background-color: antiquewhite;
+}
+
+.hr_thanh {
+    margin-top: -50px;
+}
+
+
+/* Header navbar
+
+.header__navbar {}
+
+.header__navbar-list {}
+
+.header__navbar-item {} */

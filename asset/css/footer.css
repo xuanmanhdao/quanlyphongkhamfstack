@@ -1,0 +1,35 @@
+.footer{
+    border-top: 5px solid #ffc40e;
+    max-width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    padding: 60px 10px 20px 0px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item__heading{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.footer-item__link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-copyright{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}

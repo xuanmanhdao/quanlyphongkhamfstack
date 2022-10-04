@@ -1,0 +1,206 @@
+.header{
+    height: 232px;
+    /* box-shadow: 1px 1px 1px 5px #AAA; */
+}
+
+/* Header info */
+.header__navbar-info{
+    height: 44px;
+    background-color: var(--primary-color);
+}
+
+.header__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /*
+    display: flex;
+    justify-content: space-evenly;
+    */
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header__list-item{
+   width: 100%;
+}
+
+.header__list-icon{
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin: 0px 5px;
+    padding: 0;
+   
+}
+
+.header__list-title{
+    color: #FEFEFE;
+    font-size: 1.4rem;  
+    font-weight: 400;
+    padding: 0;
+
+}
+
+.header__list-title:hover{
+    font-weight: 700;
+    color: #fcfcfc;
+    cursor: text;
+}
+
+/* header select */
+.header__select{
+    height: 130px;
+    background-color: var(--white-color);
+    padding-top: 14px;
+    width: 100%;
+}
+
+.header__home{
+    float: left;
+    display: flex;
+    width: 64%;
+}
+
+.header__logo{
+    width: 25%;
+    text-align: center;  
+}
+
+.header__home-link{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header__home-link img{
+    /* height: 94px;
+    width: 105px; */
+    height: 100px;
+    width: 200px;
+    object-fit: fill;
+}
+.header__hospital-title{
+    width: 75%;
+    color: var(--primary-color);
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: left;
+    align-self: flex-end;
+}
+
+.header__button{
+    /* float: left; */
+    display: flex;
+    width: 36%;
+    flex-direction: column;
+   
+}
+
+.header__button-item{
+    margin: 9px auto;
+   
+}
+
+.header__button-color{
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    min-width: 130px;
+    min-height: 32px;
+}
+
+.header__button-link{
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+ 
+}
+
+/* Header navbar */
+.header__navbar{
+    height: 57px;
+    background-color: var(--white-color);
+}
+
+.header__navbar-list{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* border-bottom: 2px solid var(--primary-color); */
+}
+
+.header__navbar-item{  
+    padding: 10px;
+}
+
+.header__navbar-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.header__navbar-link:active{
+    color: red;
+}
+
+.header__navbar-link:hover{
+    color: #dfc99a;
+}
+
+.header__navbar-dropdown{
+    display: inline-block;
+}
+
+.dropdown-btn{  
+    display: inline-block;
+    text-align: left;
+}
+
+.header__dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 900;
+    overflow: auto;
+}
+
+.dropdown-btn:hover .header__dropdown-content{
+    display: block;
+}
+
+.dropdown-item{
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.dropdown-item:hover{
+    background-color: #dfc99a;
+    color: var(--white-color);
+}
+
+
+.active{
+    color: #dfc99a;
+}

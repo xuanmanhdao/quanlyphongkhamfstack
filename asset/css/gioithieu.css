@@ -1,0 +1,45 @@
+.start-content{
+    height: 15px;
+    width: 100%;
+    background-color: #f4efeb;
+}
+
+.content-wrap{
+    background-color: #FFFAF5;
+    padding: 20px;
+    text-align: justify;
+    max-width: 100%;
+    height: auto;
+}
+
+.content-heading{
+    margin: 0;
+    padding: 20px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+}
+
+.content-title{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2.2rem;
+}
+
+.content-text{
+    margin: 20px 0;
+    padding: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.content-image{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+
+}

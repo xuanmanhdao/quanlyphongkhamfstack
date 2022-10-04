@@ -1,0 +1,49 @@
+.mycard {
+    box-shadow: 0 2px 4px 0 rgb(84, 85, 83);
+    ;
+    height: 170px;
+    background: white;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 1%;
+}
+
+.row {
+    padding-top: 65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .mycard {
+        opacity: 0;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(3, 196, 221);
+    padding: 1px;
+    text-align: center;
+    background: linear-gradient(to right, #01a9ac, #01dbdf);
+    color: white;
+}
+
+.card h3 {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    margin-top: 3px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: rgb(1, 51, 54);
+    transition-duration: 1s;
+    color: white;
+}
